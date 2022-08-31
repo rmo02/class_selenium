@@ -30,8 +30,8 @@ class defsClass:
 
 
 # passando as credenciais
-username = "002-022771"
-password = "RamonMaia1"
+username = "*****"
+password = "@@@@@"
 
 # URL 
 url = "https://undbclassroom.undb.edu.br/login/index.php"
