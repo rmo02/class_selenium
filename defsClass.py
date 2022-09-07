@@ -2,45 +2,6 @@ from selenium import webdriver;
 import time;
 
 
-
-class defsClass:
-
-    def startBot(username, password, url):
-	path = "C:/Users/rmo02/teste e qualidade/chromedriver/chromedriver.exe"
-	
-	# selenium
-	driver = webdriver.Chrome(path),
-
-	
-	# abrindo site 
-	driver.get(url)
-    
-	
-	# localizando user e passando user
-	driver.find_element_by_id(
-		"username").send_keys(username)
-	
-	# localizando senha e passando password
-	driver.find_element_by_id(
-		"password").send_keys(password)
-	
-	# submit
-	driver.find_element_by_id(
-		"loginbtn").click()
-
-
-# passando as credenciais
-username = "002-022771"
-password = "RamonMaia1"
-
-# URL 
-url = "https://undbclassroom.undb.edu.br/login/index.php"
-
-
-startBot(username, password, url),
-
-
-
 def Search049(search, url):
 	path = "C:/Users/rmo02/teste e qualidade/chromedriver/chromedriver.exe"
 	
@@ -63,14 +24,14 @@ def Search049(search, url):
 		"yui_3_17_2_1_1661906461136_53").click()
 
 
-# pesquisa
-search = "teste e qualidade"
+	# pesquisa
+	search = "teste e qualidade"
 
 
-# URL 
-url = "https://undbclassroom.undb.edu.br/"
+	# URL 
+	url = "https://undbclassroom.undb.edu.br/"
 
-Search049(search, url),
+	Search049(search, url),
 
 
 def Search050(search, url):
@@ -95,14 +56,14 @@ def Search050(search, url):
 		"yui_3_17_2_1_1661906461136_53").click()
 
 
-# pesquisa
-search = "poo"
+	# pesquisa
+	search = "poo"
 
 
-# URL
-url = "https://undbclassroom.undb.edu.br/"
+	# URL
+	url = "https://undbclassroom.undb.edu.br/"
 
-Search050(search, url)
+	Search050(search, url)
 
 
 def Search051(search, url):
@@ -127,14 +88,14 @@ def Search051(search, url):
 		"yui_3_17_2_1_1661906461136_53").click()
 
 
-# pesquisa
-search = "engenharia civil"
+	# pesquisa
+	search = "engenharia civil"
 
 
-# URL
-url = "https://undbclassroom.undb.edu.br/"
+	# URL
+	url = "https://undbclassroom.undb.edu.br/"
 
-Search051(search, url)
+	Search051(search, url)
 
 
 def Search052(search, url):
@@ -159,14 +120,14 @@ def Search052(search, url):
 		"yui_3_17_2_1_1661906461136_53").click()
 
 
-# buscas
-search = "rodrigo"
+	# buscas
+	search = "rodrigo"
 
 
-# URL 
-url = "https://undbclassroom.undb.edu.br/"
+	# URL 
+	url = "https://undbclassroom.undb.edu.br/"
 
-Search052(search, url)
+	Search052(search, url)
 
 def Search053(search, url):
 	path = "C:/Users/rmo02/teste e qualidade/chromedriver/chromedriver.exe"
@@ -190,14 +151,14 @@ def Search053(search, url):
 		"yui_3_17_2_1_1661906461136_53").click()
 
 
-# Pesquisa
-search = "engenharia"
+	# Pesquisa
+	search = "engenharia"
 
 
-# URL 
-url = "https://undbclassroom.undb.edu.br/"
+	# URL 
+	url = "https://undbclassroom.undb.edu.br/"
 
-Search053(search, url)
+	Search053(search, url)
 
 def Search054(search, url):
 	path = "C:/Users/rmo02/teste e qualidade/chromedriver/chromedriver.exe"
@@ -220,14 +181,14 @@ def Search054(search, url):
 		"yui_3_17_2_1_1661906461136_53").click()
 
 
-# Buscas
-search = "@, -, &"
+	# Buscas
+	search = "@, -, &"
 
 
-# URL 
-url = "https://undbclassroom.undb.edu.br/"
+	# URL 
+	url = "https://undbclassroom.undb.edu.br/"
 
-Search054(search, url)
+	Search054(search, url)
 
 
 def Search055(search, url):
@@ -253,17 +214,17 @@ def Search055(search, url):
 
 
 
-# Pesquisa
-search = "2022"
+	# Pesquisa
+	search = "2022"
 
 
-# URL 
-url = "https://undbclassroom.undb.edu.br/"
+	# URL 
+	url = "https://undbclassroom.undb.edu.br/"
 
-Search055(search, url)
+	Search055(search, url)
 
 
-def Search056(search, url):
+def Search056( url):
 	path = "C:/Users/rmo02/teste e qualidade/chromedriver/chromedriver.exe"
 	
 	# path Selenium
@@ -273,7 +234,7 @@ def Search056(search, url):
 	#webSite
 	driver.get(url).click
 
-#URL
-url = "https://undbclassroom.undb.edu.br/course/view.php?id=5301"
+	#URL
+	url = "https://undbclassroom.undb.edu.br/course/view.php?id=5301"
 
-Search056(url)
+	Search056(url)
